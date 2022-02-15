@@ -373,6 +373,17 @@
     "@ethersproject/properties" "^5.5.0"
     "@ethersproject/strings" "^5.5.0"
 
+"@gnosis.pm/cow-sdk@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@gnosis.pm/cow-sdk/-/cow-sdk-0.0.6.tgz#5617f9e964a2673e427d5bd2097720eb3b92c0b7"
+  integrity sha512-YJ7iJS8OYV2hPxWnQO3j/XS6c7FBg3V/rnvf61xROo3ndnq9Nhnu2p15jaCZebR3iI1511NWLCXWGoNzNcueEw==
+  dependencies:
+    "@gnosis.pm/gp-v2-contracts" "^1.1.2"
+    ajv "^8.8.2"
+    cross-fetch "^3.1.5"
+    ethers "^5.5.3"
+    loglevel "^1.8.0"
+
 "@gnosis.pm/gp-v2-contracts@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@gnosis.pm/gp-v2-contracts/-/gp-v2-contracts-1.1.2.tgz#0453bb097377dc63cf46ee195f7e521d429f7e22"
@@ -1136,17 +1147,6 @@ cors@^2.8.1, cors@^2.8.5:
   dependencies:
     object-assign "^4"
     vary "^1"
-
-cow-sdk-test@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/cow-sdk-test/-/cow-sdk-test-0.0.3.tgz#e1df7786106e75e756e075584a25bac518679f20"
-  integrity sha512-5UoyAiowfeHILUoyNSV5UUAuyoDWjd5D+cikGkCwamxx3H2zqT+EV4n0gtNWOyO63MrJfat/pNqxjt1Tvi8RLA==
-  dependencies:
-    "@gnosis.pm/gp-v2-contracts" "^1.1.2"
-    ajv "^8.8.2"
-    cross-fetch "^3.1.5"
-    ethers "^5.5.3"
-    loglevel "^1.8.0"
 
 crc-32@^1.2.0:
   version "1.2.1"

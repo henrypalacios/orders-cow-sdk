@@ -1,6 +1,6 @@
 import * as express from "express";
 import { Wallet } from "ethers";
-const { CowSdk, OrderKind } = require("cow-sdk-test");
+const { CowSdk, OrderKind } = require("@gnosis.pm/cow-sdk");
 
 import { MNEMONIC } from "../../../config";
 import { BaseController } from "../BaseController";
@@ -12,6 +12,7 @@ interface Jue {
 const RinkebyNetwork = 4;
 
 let wallet = Wallet.fromMnemonic(MNEMONIC);
+console.log(MNEMONIC);
 const cowSdk = new CowSdk(RinkebyNetwork, { signer: wallet });
 
 export class CreateOrderController extends BaseController {
